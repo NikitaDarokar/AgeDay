@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.container1{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(136, 61, 139);
+}
+.flexBoxContainer1{
+    border : 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10PX;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(196, 210, 255);
+}
+ 
+
+.flexBoxContainer1  div{
+    display: flex;
+    padding: 10px;
+    border: none;
+    align-items: center;
+}
+
+
